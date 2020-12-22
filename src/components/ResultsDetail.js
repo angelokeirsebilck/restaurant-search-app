@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, StyleSheet, View, Image } from 'react-native';
 import { CardStyleInterpolators } from 'react-navigation-stack';
+
 const ResultsDetail = ({ result }) => {
   return (
     <View style={styles.container}>
@@ -12,6 +13,7 @@ const ResultsDetail = ({ result }) => {
     </View>
   );
 };
+
 const styles = StyleSheet.create({
   container: {
     marginLeft: 10,
@@ -26,4 +28,5 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 });
+
 export default ResultsDetail;
