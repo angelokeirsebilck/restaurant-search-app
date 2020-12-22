@@ -25,10 +25,11 @@ const styles = StyleSheet.create({
     backgroundColor: 'lightgrey',
     height: 50,
     borderRadius: 5,
-    marginHorizontal: 15,
+    marginHorizontal: 10,
     display: 'flex',
     flexDirection: 'row',
     marginTop: 15,
+    marginBottom: 10,
   },
   inputStyle: {
     flex: 1,

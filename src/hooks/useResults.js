@@ -14,7 +14,7 @@ export default () => {
       const response = await yelp.get(`/search`, {
         params: {
           term: searchTerm,
-          location: 'Belgium',
+          location: 'Knokke-Heist',
           limit: 50,
         },
       });
